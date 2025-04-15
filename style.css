@@ -5,7 +5,7 @@ body {
 }
 
 .main-header {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 20, 0.6);
   padding-bottom: 10px;
 }
 
@@ -15,7 +15,17 @@ body {
   font-size: 8em;
   font-family: "Helvetica";
   font-weight: normal;
-  color: white;
+  color: #ffffff;
+  text-shadow: 0 0 20px #00eaff, 0 0 40px #00eaff;
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: 0;
+  font-size: 1.5em;
+  font-family: "Verdana";
+  color: #ccf7ff;
+  text-shadow: 0 0 10px #00eaff;
 }
 
 #card-container {

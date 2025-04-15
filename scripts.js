@@ -30,12 +30,32 @@ const CURB_POSTER_URL =
 const EAST_LOS_HIGH_POSTER_URL =
   "https://static.wikia.nocookie.net/hulu/images/6/64/East_Los_High.jpg";
 
-// This is an array of strings (TV show titles)
-let titles = [
-  "Fresh Prince of Bel Air",
-  "Curb Your Enthusiasm",
-  "East Los High",
-];
+  const locations = [
+    {
+      name: "Mosquito Bay",
+      country: "Puerto Rico",
+      organism: "Dinoflagellates",
+      bestTime: "December to March",
+      imageURL: "",
+      fact: "Known as the brightest bioluminescent bay in the world."
+    },
+    {
+      name: "Toyama Bay",
+      country: "Japan",
+      organism: "Firefly Squid",
+      bestTime: "March to June",
+      imageURL: "",
+      fact: "Firefly squid light up the shoreline during spawning season."
+    },
+    {
+      name: "Waitomo Caves",
+      country: "New Zealand",
+      organism: "Glowworms",
+      bestTime: "Year-round",
+      imageURL: "",
+      fact: "Glowworms create a galaxy-like ceiling inside the caves."
+    }
+  ];
 // Your final submission should have much more data than this, and
 // you should use more than just an array of strings to store it all.
 
@@ -45,23 +65,11 @@ function showCards() {
   cardContainer.innerHTML = "";
   const templateCard = document.querySelector(".card");
 
-  for (let i = 0; i < titles.length; i++) {
-    let title = titles[i];
-
-    // This part of the code doesn't scale very well! After you add your
-    // own data, you'll need to do something totally different here.
-    let imageURL = "";
-    if (i == 0) {
-      imageURL = FRESH_PRINCE_URL;
-    } else if (i == 1) {
-      imageURL = CURB_POSTER_URL;
-    } else if (i == 2) {
-      imageURL = EAST_LOS_HIGH_POSTER_URL;
-    }
-
-    const nextCard = templateCard.cloneNode(true); // Copy the template card
-    editCardContent(nextCard, title, imageURL); // Edit title and image
-    cardContainer.appendChild(nextCard); // Add new card to the container
+  for (let i = 0; i < locations.length; i++) {
+    const spot = locations[i];
+    const nextCard = templateCard.cloneNode(true);
+    editCardContent(nextCard, spot);
+    cardContainer.appendChild(nextCard);
   }
 }
 
