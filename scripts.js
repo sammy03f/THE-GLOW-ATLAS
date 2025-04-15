@@ -23,20 +23,13 @@
  *
  */
 
-const FRESH_PRINCE_URL =
-  "https://upload.wikimedia.org/wikipedia/en/3/33/Fresh_Prince_S1_DVD.jpg";
-const CURB_POSTER_URL =
-  "https://m.media-amazon.com/images/M/MV5BZDY1ZGM4OGItMWMyNS00MDAyLWE2Y2MtZTFhMTU0MGI5ZDFlXkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_FMjpg_UX1000_.jpg";
-const EAST_LOS_HIGH_POSTER_URL =
-  "https://static.wikia.nocookie.net/hulu/images/6/64/East_Los_High.jpg";
-
   const locations = [
     {
       name: "Mosquito Bay",
       country: "Puerto Rico",
       organism: "Dinoflagellates",
       bestTime: "December to March",
-      imageURL: "https://thevimagazine.com/app/uploads/2015/05/Mosquito-Bay-Vieques-Puerto-Rico-720x480.jpg",
+      imageURL: "https://storage.googleapis.com/clio-images/large_1031_d1ab8472-0256-4dfd-8626-c7c1692487fc.jpg",
       fact: "Each dinoflagellate emitting a stunning blue glow when disturbed."
     },
     {
@@ -44,7 +37,7 @@ const EAST_LOS_HIGH_POSTER_URL =
       country: "Japan",
       organism: "Firefly Squid",
       bestTime: "March to June",
-      imageURL: "https://static1.thetravelimages.com/wordpress/wp-content/uploads/2024/10/bioluminescence-in-the-maldives.jpg",
+      imageURL: "https://japandeluxetours.com/uploads/2015/08/20150817181422_55d278de04ef9.jpg",
       fact: "Firefly squid light up the shoreline during spawning season."
     },
     {
@@ -52,7 +45,7 @@ const EAST_LOS_HIGH_POSTER_URL =
       country: "New Zealand",
       organism: "Glowworms",
       bestTime: "Year-round",
-      imageURL: "https://img.etimg.com/thumb/msid-114977866,width-480,height-360,imgsize-1852551,resizemode-75/unreal-destinations.jpg",
+      imageURL: "https://www.treehugger.com/thmb/wsq7P4GhMkAv7R2U4_rKF8RulsI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__treehugger__images__2015__08__joseph-michael-glowworm-cave-photos-1-1402d1dd9f0746f181f4253cde791bd6.jpg",
       fact: "Glowworms create a galaxy-like ceiling inside the caves."
     },
     {
@@ -60,7 +53,7 @@ const EAST_LOS_HIGH_POSTER_URL =
       country: "Jamaica",
       organism: "Dinoflagellates",
       bestTime: "Year-round",
-      imageURL: "https://media.cntraveler.com/photos/5d2f6e88df6fd60009a3a553/4:3/w_1600%2Cc_limit/Luminous-Lagoon-lagoon-GettyImages-949471500.jpg",
+      imageURL: "https://suzettetoursjamaica.com/wp-content/uploads/2023/02/luminous.jpeg",
       fact: "This lagoon glows when you swim or splash, and boat tours even let you jump in to experience the glow firsthand—one of the few places in the world where this is possible!"
     },
     {
@@ -68,7 +61,7 @@ const EAST_LOS_HIGH_POSTER_URL =
       country: "Vietnam",
       organism: "Dinoflagellates",
       bestTime: "May to October",
-      imageURL: "https://vietreader.com/uploads/posts/2021-03/1617181412_bi-luminescent-bay-vietnam.jpg",
+      imageURL: "https://www.trafalgar.com/real-word/wp-content/uploads/sites/3/2022/01/Ha-Long-Bay-B.jpeg",
       fact: "Paddle through the caves at night to witness glowing ripples trailing your kayak—bioluminescent dinoflagellates make the emerald waters come alive in the dark."
     },
     {
@@ -76,7 +69,7 @@ const EAST_LOS_HIGH_POSTER_URL =
       country: "Maldives",
       organism: "Phytoplankton",
       bestTime: "Late summer to early winter",
-      imageURL: "https://www.wondersofnature.net/uploads/1/2/3/6/12366302/1348403569.jpg",
+      imageURL: "https://content.madlymaldives.com/wp-content/uploads/2023/11/Sea-of-Stars-in-Maldives.jpg",
       fact: "Also called the Sea of Stars, the glowing waves on this beach are caused by phytoplankton reacting to movement in the water—turning the shoreline into a surreal galaxy."
     },
   ];
