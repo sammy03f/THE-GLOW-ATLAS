@@ -73,20 +73,22 @@ function showCards() {
   }
 }
 
-function editCardContent(card, newTitle, newImageURL) {
+function editCardContent(card, spot) {
   card.style.display = "block";
 
   const cardHeader = card.querySelector("h2");
-  cardHeader.textContent = newTitle;
+  cardHeader.textContent = spot.name;
 
   const cardImage = card.querySelector("img");
-  cardImage.src = newImageURL;
-  cardImage.alt = newTitle + " Poster";
+  cardImage.src = spot.imageURL;
+  cardImage.alt = spot.name + " Image";
 
-  // You can use console.log to help you debug!
-  // View the output by right clicking on your website,
-  // select "Inspect", then click on the "Console" tab
-  console.log("new card:", newTitle, "- html: ", card);
+  const listItems = card.querySelectorAll("ul li");
+  listItems[0].textContent = "Country: " + spot.country;
+  listItems[1].textContent = "Organism: " + spot.organism;
+  listItems[2].textContent = "Best Time: " + spot.bestTime;
+
+  console.log("card loaded:", spot.name);
 }
 
 // This calls the addCards() function when the page is first loaded
