@@ -37,7 +37,7 @@ const EAST_LOS_HIGH_POSTER_URL =
       organism: "Dinoflagellates",
       bestTime: "December to March",
       imageURL: "https://thevimagazine.com/app/uploads/2015/05/Mosquito-Bay-Vieques-Puerto-Rico-720x480.jpg",
-      fact: "Known as the brightest bioluminescent bay in the world."
+      fact: "Each dinoflagellate emitting a stunning blue glow when disturbed."
     },
     {
       name: "Toyama Bay",
@@ -54,7 +54,31 @@ const EAST_LOS_HIGH_POSTER_URL =
       bestTime: "Year-round",
       imageURL: "https://img.etimg.com/thumb/msid-114977866,width-480,height-360,imgsize-1852551,resizemode-75/unreal-destinations.jpg",
       fact: "Glowworms create a galaxy-like ceiling inside the caves."
-    }
+    },
+    {
+      name: "Luminous Lagoon",
+      country: "Jamaica",
+      organism: "Dinoflagellates",
+      bestTime: "Year-round",
+      imageURL: "https://media.cntraveler.com/photos/5d2f6e88df6fd60009a3a553/4:3/w_1600%2Cc_limit/Luminous-Lagoon-lagoon-GettyImages-949471500.jpg",
+      fact: "This lagoon glows when you swim or splash, and boat tours even let you jump in to experience the glow firsthand—one of the few places in the world where this is possible!"
+    },
+    {
+      name: "Halong Bay",
+      country: "Vietnam",
+      organism: "Dinoflagellates",
+      bestTime: "May to October",
+      imageURL: "https://vietreader.com/uploads/posts/2021-03/1617181412_bi-luminescent-bay-vietnam.jpg",
+      fact: "Paddle through the caves at night to witness glowing ripples trailing your kayak—bioluminescent dinoflagellates make the emerald waters come alive in the dark."
+    },
+    {
+      name: "Vaadhoo Island",
+      country: "Maldives",
+      organism: "Phytoplankton",
+      bestTime: "Late summer to early winter",
+      imageURL: "https://www.wondersofnature.net/uploads/1/2/3/6/12366302/1348403569.jpg",
+      fact: "Also called the Sea of Stars, the glowing waves on this beach are caused by phytoplankton reacting to movement in the water—turning the shoreline into a surreal galaxy."
+    },
   ];
 // Your final submission should have much more data than this, and
 // you should use more than just an array of strings to store it all.
