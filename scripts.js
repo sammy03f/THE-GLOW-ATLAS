@@ -87,6 +87,19 @@ function editCardContent(card, spot) {
   listItems[0].textContent = "Country: " + spot.country;
   listItems[1].textContent = "Organism: " + spot.organism;
   listItems[2].textContent = "Best Time: " + spot.bestTime;
+  listItems[3].textContent = "Fun Fact: " + spot.fact;
+
+
+  const infoButton = card.querySelector(".info-btn");
+  const infoDropdown = card.querySelector(".info-dropdown");
+
+  infoButton.addEventListener("click", () => {
+    if (infoDropdown.style.display === "none") {
+      infoDropdown.style.display = "block";
+    } else {
+      infoDropdown.style.display = "none";
+    }
+  });
 
   console.log("card loaded:", spot.name);
 }
