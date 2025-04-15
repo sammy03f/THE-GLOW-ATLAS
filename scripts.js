@@ -36,7 +36,7 @@ const EAST_LOS_HIGH_POSTER_URL =
       country: "Puerto Rico",
       organism: "Dinoflagellates",
       bestTime: "December to March",
-      imageURL: "",
+      imageURL: "https://thevimagazine.com/app/uploads/2015/05/Mosquito-Bay-Vieques-Puerto-Rico-720x480.jpg",
       fact: "Known as the brightest bioluminescent bay in the world."
     },
     {
@@ -44,7 +44,7 @@ const EAST_LOS_HIGH_POSTER_URL =
       country: "Japan",
       organism: "Firefly Squid",
       bestTime: "March to June",
-      imageURL: "",
+      imageURL: "https://static1.thetravelimages.com/wordpress/wp-content/uploads/2024/10/bioluminescence-in-the-maldives.jpg",
       fact: "Firefly squid light up the shoreline during spawning season."
     },
     {
@@ -52,7 +52,7 @@ const EAST_LOS_HIGH_POSTER_URL =
       country: "New Zealand",
       organism: "Glowworms",
       bestTime: "Year-round",
-      imageURL: "",
+      imageURL: "https://img.etimg.com/thumb/msid-114977866,width-480,height-360,imgsize-1852551,resizemode-75/unreal-destinations.jpg",
       fact: "Glowworms create a galaxy-like ceiling inside the caves."
     }
   ];
