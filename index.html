@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>LA TV Shows | Home</title>
+    <title>The Glow Atlas</title>
     <meta name="description" content="A Catalog of Shows Set in Los Angeles" />
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="scripts.js"></script>
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <script
+  src="https://unpkg.com/leaflet/dist/leaflet.js">
+  </script>
   </head>
 
   <body>
@@ -12,12 +18,17 @@
       <h1 class="title">The Glow Atlas</h1>
       <h2 class="subtitle">A catalog of the worlds most stunning bioluminescent destinations.</h2>
     </header>
+    <label class="switch">
+      <input type="checkbox" id="darkToggle" onchange="toggleDarkMode()">
+      <span class="slider"></span>
+    </label>
     <div id="card-container"></div>
     <div class="card" style="display: none">
       <div class="card-content">
         <h2>Location Name</h2>
         <img src="" alt="Bioluminescent Spot" />
         <button class="info-btn">Show Info</button>
+        <button class="remove-btn">Remove</button>
         <div class="info-dropdown" style="display: none;">
           <ul>
             <li>Country: </li>
@@ -28,9 +39,19 @@
         </div>
       </div>
     </div>
-    <div class="footer">
-      <button onclick="quoteAlert();">Get A Quote!</button>
-      <button onclick="removeLastCard();">Remove A Card!</button>
-    </div>
+    <div id="map" style="height: 500px; margin: 30px;"></div>
+    <section class="email-signup">
+      <h3>Stay Updated!</h3>
+      <p>Enter your email below to receive updates about new bioluminescent locations.</p>
+      <form id="email-form">
+        <input type="email" id="email-input" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+      <p id="email-message" style="display: none;">Thank you for subscribing!</p>
+    </section>
+    <footer class="footer">
+      <p>Created by <span class="name"> Samuel Fisher</span></p>
+      
+    </footer>
   </body>
 </html>
